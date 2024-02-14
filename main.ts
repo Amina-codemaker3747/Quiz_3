@@ -14,3 +14,9 @@ function TitleCase(str: string) {
 console.log(LowerCase);
 console.log(UpperCase);
 console.log(TitleCase("wahaj ali is the best ACTOR"));
+
+// Another Method for titlecase
+let person_name = "wahaj ali";
+const TitleCaseName = person_name.replace(/b\w/g, (char) => 
+ {char.toUpperCase()}
+);
